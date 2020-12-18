@@ -12,5 +12,8 @@ public interface GenericServiceAPI <T,ID extends Serializable>{
 	
 	T get(ID id);
 	
-	List<T> getAll();
+	static List<T> getAll() {
+		// TODO Auto-generated method stub
+		return null;
+	}
 }
