@@ -10,7 +10,7 @@ import com.example.demoParcial.model.Persona;
 import com.example.demoParcial.service.api.PersonaServiceAPI;
 
 @Service
-public class PersonaServiceImpl extends GenericServiceImpl<Persona, Integer> implements PersonaServiceAPI {
+public class SorteoServiceImpl extends GenericServiceImpl<Persona, Integer> implements PersonaServiceAPI {
 
 	@Autowired
 	private PersonaDaoAPI personaDaoAPI;
